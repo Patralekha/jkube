@@ -36,36 +36,36 @@
 
     <version.bouncycastle.bcpkix>1.61</version.bouncycastle.bcpkix>
     <version.commons-codec>1.15</version.commons-codec>
-    <version.commons-compress>1.21</version.commons-compress>
+    <version.commons-compress>1.26.0</version.commons-compress>
     <version.commons-lang3>3.11</version.commons-lang3>
-    <version.commons-text>1.9</version.commons-text>
-    <version.gson>2.8.6</version.gson>
+    <version.commons-text>1.10.0</version.commons-text>
+    <version.gson>2.8.9</version.gson>
     <version.httpcore>4.4.13</version.httpcore>
     <version.httpclient>4.5.13</version.httpclient>
     <version.ianaservicehelper>0.0.1</version.ianaservicehelper>
     <version.jansi>2.3.3</version.jansi>
     <version.javassist>3.20.0-GA</version.javassist>
-    <version.jgit>5.12.0.202106070339-r</version.jgit>
+    <version.jgit>5.13.3.202401111512-r</version.jgit>
     <version.jnr-unixsocket>0.12</version.jnr-unixsocket>
     <version.json-path-assert>2.2.0</version.json-path-assert>
-    <version.json-smart>2.2.1</version.json-smart> <!-- Transitive dependency from com.consol.citrus:citrus-core -->
+    <version.json-smart>2.4.9</version.json-smart> <!-- Transitive dependency from com.consol.citrus:citrus-core -->
     <version.jsr305>3.0.2</version.jsr305>
     <version.JUnitParams>1.1.1</version.JUnitParams>
-    <version.kubernetes-client>5.10.1</version.kubernetes-client>
+    <version.kubernetes-client>5.10.2</version.kubernetes-client>
     <version.lombok>1.18.12</version.lombok>
     <version.maven-archiver>3.5.0</version.maven-archiver>
-    <version.maven-core>3.6.3</version.maven-core>
+    <version.maven-core>3.8.1</version.maven-core>
     <version.maven-filtering>3.1.1</version.maven-filtering>
     <version.maven-plugin-annotations>3.6.0</version.maven-plugin-annotations>
     <version.mockwebserver>0.1.8</version.mockwebserver>
     <version.networknt.validator>1.0.53</version.networknt.validator>
     <version.openshift-client>${version.kubernetes-client}</version.openshift-client>
-    <version.plexus-archiver>3.5</version.plexus-archiver>
+    <version.plexus-archiver>4.8.0</version.plexus-archiver>
     <version.plexus-classworlds>2.6.0</version.plexus-classworlds>
     <version.plexus-build-api>0.0.7</version.plexus-build-api>
     <version.plexus-utils>3.0.24</version.plexus-utils>
     <version.shrinkwrap>1.2.6</version.shrinkwrap>
-    <version.snakeyaml>1.28</version.snakeyaml>
+    <version.snakeyaml>2.0</version.snakeyaml>
     <version.validation-api>2.0.1.Final</version.validation-api>
     <version.vertx-infinispan>3.4.2</version.vertx-infinispan>
     <version.wagon-ssh-external>2.3</version.wagon-ssh-external>
@@ -111,7 +111,7 @@
     <image.wildfly.upstream.s2i>quay.io/wildfly/wildfly-centos7:${version.image.wildfly.upstream.s2i}</image.wildfly.upstream.s2i>
     <image.wildfly.upstream.istag>wildfly:${version.image.wildfly.upstream.s2i}</image.wildfly.upstream.istag>
 
-    <jib-core.version>0.20.0</jib-core.version>
+    <jib-core.version>0.22.0</jib-core.version>
   </properties>
 
   <dependencyManagement>
